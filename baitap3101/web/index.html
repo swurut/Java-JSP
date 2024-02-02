@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <title>Form giáo viên</title>
+    </head>
+    <body>
+
+        <h2>Form thông tin giáo viên</h2>
+
+        <form action="processTinhtoann" method="post">
+            <label for="hoTen">Họ tên</label>
+            <input type="text" name="hoten" required><br>
+
+            <label for="dob">Ngày sinh</label>
+            <input type="date" name="ngaysinh" required><br>
+
+            <label for="hometown">Quê quán</label>
+            <input type="text" name="quequan" required><br>
+
+            <label for="luong">Lương cơ bản</label>
+            <input type="number" name="luongcoban" required><br>
+
+            <label for="heSo">Hệ số lương</label>
+            <input type="number" name="hesoluong" required><br>
+
+            <label for="soTiet">Số tiết</label>
+            <input type="number" name="sotiet" required><br>
+
+            <label for="soGio">Số giờ</label>
+            <input type="number" name="sogio" required><br>
+        
+            <label for="kieugiaovien">Kiểu giáo viên</label>
+            <select name="kieugiaovien">
+                <option value="cohuu">Cơ hữu</option>
+                <option value="thinhgiang">Thỉnh giảng</option>
+            </select>
+            
+         
+           
+            
+        <fieldset>
+    <legend></legend>
+    <div>
+      <input type="radio" id="contactChoice1" name="giolam" value="tronggio" />
+      <label for="contactChoice1">Trong gio</label>
+
+      <input type="radio" id="contactChoice2" name="giolam" value="ngoaigio" />
+      <label for="contactChoice2">Ngoai gio</label>
+      <br></br>
+      <input type="radio" id="contactChoice3" name="diadiem" value="trong tinh" />
+      <label for="contactChoice3">Trong tinh</label>
+      <input type="radio" id="contactChoice4" name="diadiem" value="ngoai tinh" />
+      <label for="contactChoice3">Ngoai tinh</label>
+      <br></br>
+      <label for="dob">Quang duong</label>
+            <input type="number" name="quangduong" required>
+    </div>
+    <div>    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <br>
+
+            <input type="submit" value="Calculate">
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <title>Form Thanh vien</title>
+    </head>
+    <body>
+
+        <h2>Form thông tin thanh vien</h2>
+<table border="1">
+        <form action="processTinhtoann" method="post">
+            <tr>
+                <td><label for="hoTen">Họ tên</label>
+                    <input type="text" name="hoten" required><br></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Ngày sinh</label>
+                    <input type="date" name="ngaysinh" required><br></td>
+            </tr>
+            <tr>  
+            <td>  <label for="gioitinh">Gioi tinh</label>
+             <input type="radio" id="contactChoice1" name="gioitinh" value="nam" />
+      <label for="contactChoice1">Nam</label>
+
+      <input type="radio" id="contactChoice2" name="gioitinh" value="nu" />
+      <label for="contactChoice2">Nu</label>
+      <br></br>
+      <input type="radio" id="contactChoice3" name="gioitinh" value="khongxacdinh" />
+      <label for="contactChoice3">Khong xac dinh</label></td>
+ 
+        </tr>
+        <tr>
+            <td>  <label for="hometown">Quê quán</label>
+                <input type="text" name="quequan" required><br></td>
+            
+            </tr>
+            <tr>
+                <td>        <label for="sothich">So thich</label>
+             <input type="radio" id="contactChoice4" name="sothich" value="thethao" />
+      <label for="contactChoice4">The thao</label>
+
+      <input type="radio" id="contactChoice5" name="sothich" value="amnhac" />
+      <label for="contactChoice5">Am nhac</label>
+      <br></br>
+      <input type="radio" id="contactChoice6" name="sothich" value="xemphim" />
+      <label for="contactChoice6">Xemphim</label> </td>
+        </tr>
+      
+        <tr>
+            <td>    <label for="kihunggio">Khung gio</label>
+            <select name="khunggio">
+                <option value="sang">Sang</option>
+                <option value="chieu">chieu</option>
+                <option value="toi">toi</option>
+            </select>
+            </td>
+            
+            </tr>
+            <tr>
+                <td>      <label for="sotiet">Số tiết</label>
+                    <input type="number" name="sotiet" required><br> </td>
+            </tr>
+            <tr>
+                <td> <input type="submit" value="Calculate"></td>
+            </tr>
+         
+         
+            
+         
+           
+            
+    
+    <div>    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+           
+
+          
+        </form>
+       </table>
+
+    </body>
+</html>
